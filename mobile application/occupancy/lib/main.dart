@@ -100,6 +100,26 @@ class AddPageState extends State<AddPage> {
                 });
               },
             ),
+            IconButton(
+              icon: const Icon(Icons.help),
+              onPressed: () {
+                showDialog(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return AlertDialog(
+                          title: Text("Last minute data"),
+                          content: Text(
+                              "Click refresh button to refresh.\n\nHigh 'Human Presence' gives an occupied status in the place.\n\nHigh 'mmWave' or 'PIR' gives a triggered sensor."),
+                          actions: [
+                            TextButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                })
+                          ]);
+                    });
+              },
+            ),
             //onPressed: addNew), //list icon to push next page
           ], //
         ),
@@ -119,7 +139,7 @@ class AddPageState extends State<AddPage> {
               features: a,
               size: Size(350, 100),
               labelX: (globals.labelx.cast<String>()),
-              labelY: [''],
+              labelY: ['Yes'],
               //  showDescription: true,
               graphColor: Colors.white30,
               graphOpacity: 0.2,
