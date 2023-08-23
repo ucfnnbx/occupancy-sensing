@@ -5,4 +5,9 @@ For a workplace at table scenario, ideal locations to mount the sensor are on th
 
 An Android application is developed to showcase the communication of real-time sensor data with people. With this app, people can check the occupancy status of places that have sensor deployed wherever they are. All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. 
 
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/mobile_app.png" width="250">
+</p>
+
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
