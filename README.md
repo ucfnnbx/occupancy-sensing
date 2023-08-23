@@ -3,7 +3,7 @@ An occupancy sensing system with an integration of mmWave sensor and PIR sensor 
 
 For a workplace at table scenario, ideal locations to mount the sensor are on the ceiling or in front of the table. The sensing distance can be configured from 0 to 10 meters. 
 
-An Android application is developed to showcase the communication of real-time sensor data with people. With this app, people can check the occupancy status of places that have sensor deployed wherever they are. All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. 
+An Android application is developed to showcase the communication of real-time sensor data with people. With this app, people can check the occupancy status of places that have sensor deployed wherever they are. All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. A demo of mobile app can be found in above file named 'mobile app demo'.
 
 <p align="center">
 <img
@@ -11,3 +11,8 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/mobile
 </p>
 
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
+
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%20displayer.jpg" width="250">
+</p>
