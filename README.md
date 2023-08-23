@@ -1,5 +1,5 @@
 # Occupancy Sensing
-An occupancy sensing system with an integration of mmWave sensor and PIR sensor is developed. The reason for integrating two sensors is to complement the respective defects and combine their advantages. The multipath propagation of mmWaves are found to derease the occupancy detection accuracy inevitably, which can be greatly improved by bringing in PIR. Although a PIR sensor has its own drawbacks like only able to detect moving people, this can be compensated with mmWave sensing features. Only when both sensors are triggered, a positive occupancy result will be output. 
+An occupancy sensing system with an integration of mmWave sensor and PIR sensor. The purpose for integrating two sensors is to complement the respective defects and combine their advantages. The multipath propagation of mmWaves are found to derease the occupancy detection accuracy inevitably, which can be greatly improved by bringing in PIR. Although a PIR sensor has its own drawbacks like only able to detect moving people, this can be compensated with mmWave sensing features. Only when both sensors are triggered, a positive occupancy result will be output. 
 
 <p align="center">
 <img
