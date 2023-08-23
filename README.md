@@ -7,7 +7,7 @@ An Android application is developed to showcase the communication of real-time s
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/mobile_app.png" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/mobile_app.png" width="150">
 </p>
 
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
