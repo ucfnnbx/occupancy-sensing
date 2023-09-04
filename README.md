@@ -29,6 +29,6 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%
 4. Build the project with Android emulator, ios simulator or physical device connected
 
 ## View Grafana Dashboards
-Contact me to get access to dashboards on geafana.
+Contact me to get access to all the past data on Grafana dashboards.
 
 
