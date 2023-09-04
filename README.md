@@ -21,3 +21,14 @@ To aid visualization of the sensor working machenisms, a light displayer is buil
 <img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%20displayer.jpg" width="250">
 </p>
+
+## How To Install The App
+1. Download folder 'mobile application/occupancy'.
+2. Open folder with Android Studio or Visual Studio Code IDE.
+3. Get packages: From the terminal: Run flutter pub get . From VS Code: Click Get Packages located in right side of the action ribbon at the top of pubspec.yaml indicated by the Download icon. From Android Studio/IntelliJ: Click Pub get in the action ribbon at the top of pubspec.yaml.
+4. Build the project with Android emulator, ios simulator or physical device connected
+
+## View Grafana Dashboards
+Contact me to get access to dashboards on geafana.
+
+
