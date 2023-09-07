@@ -15,7 +15,7 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Exhibi
 </p>
  
 ## Android Mobile Application
-A video demo can be found in above file named 'mobile app demo'.
+A video demo can be found in above file named 'mobile app demo.mp4'.
 
 Based on the sensor system, this app allows user to remote monitor the occupancy data. It has functions including 'bookmark favorite places', 'view real-time data in graphs', and 'find the sensor location'. 
 All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. 
