@@ -6,7 +6,9 @@ Ceiling mounting is the most suitable installation method because it keeps the s
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Exhibition.png" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Exhibition.png" width="250"><img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/List_view.png" width="250"><img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Bookmarked.png" width="250">
 </p>
  
 ## Android Mobile Application
