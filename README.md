@@ -1,6 +1,7 @@
 # Occupancy Sensing
-An occupancy sensing system was developed by integrating basic PIR and mmWave sensor modules. Occupancy data was utilized by a lighting system and a mobile application for remote monitoring, which has the potential to improve energy efficiency and space utilization management in workplaces. Compared to using a mmWave sensor alone, bringing in a PIR sensor could greatly improve the sensing accuracy in cases where mmWave sensor may be frequently false triggered due to reflections or non-human objects. The sensing system was tested with different deployments to ensure it can deliver reproducible results across different implementations. 
+An occupancy sensing system with an integration of basic PIR and mmWave sensor modules. Occupancy data was utilized by a lighting system and a mobile application for remote monitoring, which has the potential to improve energy efficiency and space utilization management in workplaces. Compared to using a mmWave sensor alone, bringing in a PIR sensor could greatly improve the sensing accuracy in cases where mmWave sensor may be frequently false triggered due to reflections or non-human objects. The sensing system was tested with different deployments to ensure it can deliver reproducible results across different implementations. 
 
+## Installing method
 Ceiling mounting is the most suitable installation method because it keeps the sensor unblocked and unobtrusive, while giving a high measuring accuracy. Wall mounting is more suitable for intensive workplaces, but the sensor may be easily blocked or removed by people. Below is an example of a wall-mounted sensor. The sensor's detection range can be configured from 0-9 meters, with a beam angle of 100° × 40°.
 
 <p align="center">
@@ -14,7 +15,7 @@ All the past data are stored in a cloud database for people who has administrati
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_view.png" width="150">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_view.png" width="250">
 </p>
 
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
