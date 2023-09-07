@@ -1,18 +1,20 @@
 # Occupancy Sensing
-An occupancy sensing system with an integration of mmWave sensor and PIR sensor. The purpose for integrating two sensors is to complement the respective defects and combine their advantages. The multipath propagation of mmWaves are found to derease the occupancy detection accuracy inevitably, which can be greatly improved by bringing in PIR. Although a PIR sensor has its own drawbacks like only able to detect moving people, this can be compensated with mmWave sensing features. Only when both sensors are triggered, a positive occupancy result will be output. 
+An occupancy sensing system was developed by integrating basic PIR and mmWave sensor modules. Occupancy data was utilized by a lighting system and a mobile application for remote monitoring, which has the potential to improve energy efficiency and space utilization management in workplaces. Compared to using a mmWave sensor alone, bringing in a PIR sensor could greatly improve the sensing accuracy in cases where mmWave sensor may be frequently false triggered due to reflections or non-human objects. The sensing system was tested with different deployments to ensure it can deliver reproducible results across different implementations. 
+
+Ceiling mounting is the most suitable installation method because it keeps the sensor unblocked and unobtrusive, while giving a high measuring accuracy. Wall mounting is more suitable for intensive workplaces, but the sensor may be easily blocked or removed by people. Below is an example of a wall-mounted sensor. The sensor's detection range can be configured from 0-9 meters, with a beam angle of 100° × 40°.
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/sensor.jpg" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Exhibition.png" width="250">
 </p>
-
-For a workplace at table scenario, ideal locations to mount the sensor are on the ceiling or in front of the table. The sensing distance can be configured from 0 to 10 meters. 
-
-An Android application is developed to showcase the communication of real-time sensor data with people. With this app, people can check the occupancy status of places that have sensor deployed wherever they are. All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. A demo of mobile app can be found in above file named 'mobile app demo'.
+ 
+## Android Mobile Application
+Based on the sensor system, this app allows user to remote monitor the occupancy data. It has functions including 'bookmark favorite places', 'view real-time data in graphs', and 'find the sensor location'. 
+All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. A video demo can be found in above file named 'mobile app demo'.
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/mobile_app.png" width="150">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_view.png" width="150">
 </p>
 
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
