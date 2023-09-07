@@ -3,7 +3,7 @@ An occupancy sensing system with an integration of basic PIR and mmWave sensor m
 <p align="center">
 <img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Sensor_top%20view.png" width="250"><img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/PCB.png" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/PCB.png" width="248">
 </p>
 
 ## Installation method
@@ -41,7 +41,7 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Locati
 An LED light displayer was built as a simple model to showcase the smart lighting applications. Besides, it can help people intuitively understand how the integrated sensor improves accuracy compared to either sensor alone. 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%20displayer.jpg" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%20displayer.jpg" width="350">
 </p>
 
 ## How To Install The App
