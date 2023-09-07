@@ -14,24 +14,24 @@ Based on the sensor system, this app allows user to remote monitor the occupancy
 All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. A video demo can be found in above file named 'mobile app demo'.
 
 <p align="center">
+User can switch between grid view and list view, and save their favorite places.
+</p>
+<p align="center">
 <img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_view.png" width="250"><img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/List_view.png" width="250"><img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Bookmarked.png" width="250">
 </p>
+
 <p align="center">
-User can switch between grid view and list view, and save their favorite places.
+Real-time data visualized in graphs, and sensor location guidance
 </p>
-
-
 <p align="center">
 <img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Graph_page.png" width="250"><img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Location_page.png" width="250">
 </p>
-<p align="center">
-Real-time data visualized in graphs, and sensor location guidance
-</p>
+
 
 An LED light displayer was built as a simple model to showcase the smart lighting applications. Besides, it can help people intuitively understand how the integrated sensor improves accuracy compared to either sensor alone. 
 <p align="center">
