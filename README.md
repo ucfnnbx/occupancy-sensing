@@ -19,6 +19,9 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_v
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/List_view.png" width="250"><img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Bookmarked.png" width="250">
 </p>
+<p align="center">
+User can switch between grid view and list view, and bookmark their favorite places.
+</p>
 
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
 
