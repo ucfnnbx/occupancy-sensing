@@ -6,9 +6,7 @@ Ceiling mounting is the most suitable installation method because it keeps the s
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Exhibition.png" width="250"><img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/List_view.png" width="250"><img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Bookmarked.png" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Exhibition.png" width="250">
 </p>
  
 ## Android Mobile Application
@@ -17,7 +15,9 @@ All the past data are stored in a cloud database for people who has administrati
 
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_view.png" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grid_view.png" width="250"><img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/List_view.png" width="250"><img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Bookmarked.png" width="250">
 </p>
 
 To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
