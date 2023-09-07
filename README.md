@@ -1,7 +1,7 @@
 # Occupancy Sensing
 An occupancy sensing system with an integration of basic PIR and mmWave sensor modules. Occupancy data was utilized by a lighting system and a mobile application for remote monitoring, which has the potential to improve energy efficiency and space utilization management in workplaces. Compared to using a mmWave sensor alone, bringing in a PIR sensor could greatly improve the sensing accuracy in cases where mmWave sensor may be frequently false triggered due to reflections or non-human objects. The sensing system was tested with different deployments to ensure it can deliver reproducible results across different implementations. 
 
-## Installing method
+## Installation method
 Ceiling mounting is the most suitable installation method because it keeps the sensor unblocked and unobtrusive, while giving a high measuring accuracy. Wall mounting is more suitable for intensive workplaces, but the sensor may be easily blocked or removed by people. Below is an example of a wall-mounted sensor. The sensor's detection range can be configured from 0-9 meters, with a beam angle of 100° × 40°.
 
 <p align="center">
