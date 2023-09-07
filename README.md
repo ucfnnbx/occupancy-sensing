@@ -1,5 +1,10 @@
 # Occupancy Sensing
 An occupancy sensing system with an integration of basic PIR and mmWave sensor modules. Occupancy data was utilized by a lighting system and a mobile application for remote monitoring, which has the potential to improve energy efficiency and space utilization management in workplaces. Compared to using a mmWave sensor alone, bringing in a PIR sensor could greatly improve the sensing accuracy in cases where mmWave sensor may be frequently false triggered due to reflections or non-human objects. The sensing system was tested with different deployments to ensure it can deliver reproducible results across different implementations. 
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Sensor_top%20view.png" width="250"><img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/PCB.png" width="250">
+</p>
 
 ## Installation method
 Ceiling mounting is the most suitable installation method because it keeps the sensor unblocked and unobtrusive, while giving a high measuring accuracy. Wall mounting is more suitable for intensive workplaces, but the sensor may be easily blocked or removed by people. Below is an example of a wall-mounted sensor. The sensor's detection range can be configured from 0-9 meters, with a beam angle of 100° × 40°.
@@ -14,7 +19,7 @@ Based on the sensor system, this app allows user to remote monitor the occupancy
 All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. A video demo can be found in above file named 'mobile app demo'.
 
 <p align="center">
-User can switch between grid view and list view, and save their favorite places.
+User can switch between grid view and list view, and save their favorite places
 </p>
 <p align="center">
 <img
@@ -49,7 +54,7 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%
 All the past data measured by sensor is stored in InfluxDB database, and can be viewed on Grafana dashboards.
 <p align="center">
 <img
-src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grafana%20dashboards.png" width="250">
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grafana%20dashboards.png" width="350">
 </p>
 
 
