@@ -21,7 +21,7 @@ Based on the sensor system, this app allows user to remotely monitor the workpla
 All the past data are stored in a cloud database for people who has administration to access on a Grafana dashboard. 
 
 <p align="center">
-User can switch between grid view and list view, and save their favorite places
+Users can switch between grid view and list view, and save their favorite places
 </p>
 <p align="center">
 <img
