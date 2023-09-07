@@ -23,6 +23,7 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Bookma
 User can switch between grid view and list view, and save their favorite places.
 </p>
 
+
 <p align="center">
 <img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Graph_page.png" width="250"><img
@@ -32,8 +33,7 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Locati
 Real-time data visualized in graphs, and sensor location guidance
 </p>
 
-To aid visualization of the sensor working machenisms, a light displayer is built. This is to help understand the reason why I integrated two kinds of sensor in order to give a more reliable result. 
-
+An LED light displayer was built as a simple model to showcase the smart lighting applications. Besides, it can help people intuitively understand how the integrated sensor improves accuracy compared to either sensor alone. 
 <p align="center">
 <img
 src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%20displayer.jpg" width="250">
@@ -46,6 +46,10 @@ src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/light%
 4. Build the project with Android emulator, ios simulator or physical device connected
 
 ## View Grafana Dashboards
-Contact me to get access to all the past data on Grafana dashboards.
+All the past data measured by sensor is stored in InfluxDB database, and can be viewed on Grafana dashboards.
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/occupancy-sensing/blob/main/readme_images/Grafana%20dashboards.png" width="250">
+</p>
 
 
